@@ -1,0 +1,73 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+  use_plugin_cookies:
+    label: devnull.main::lang.settings_fields.cookies_label
+    type: switch
+    commentAbove: devnull.main::lang.settings_fields.cookies_commentAbove
+    span: auto
+
+tabs:
+  fields:
+
+    use_popup:
+      label: devnull.main::lang.settings_fields.cookies_use_popup_label
+      type: switch
+      commentAbove: devnull.main::lang.settings_fields.cookies_use_popup_commentAbove
+      span: auto
+      tab: Cookies
+
+    use_redirect:
+      label: devnull.main::lang.settings_fields.cookies_use_redirect_label
+      type: switch
+      commentAbove: devnull.main::lang.settings_fields.cookies_use_redirect_commentAbove
+      span: auto
+      tab: Cookies
+
+    use_frontpage:
+      label: devnull.main::lang.settings_fields.cookies_use_frontpage_label
+      type: switch
+      commentAbove: devnull.main::lang.settings_fields.cookies_use_frontpage_commentAbove
+      span: auto
+      tab: Cookies
+
+    use_which:
+      label: devnull.main::lang.settings_fields.cookies_use_which_label
+      type: radio
+      commentAbove: devnull.main::lang.settings_fields.cookies_use_which_commentAbove
+      span: left
+      tab: Notification
+
+    use_horizontal:
+      label: devnull.main::lang.settings_fields.cookies_use_horizontal_label
+      type: radio
+      commentAbove: devnull.main::lang.settings_fields.cookies_use_horizontal_commentAbove
+      span: auto
+      tab: Notification
+
+    use_vertical:
+      label: devnull.main::lang.settings_fields.cookies_use_vertical_label
+      type: radio
+      commentAbove: devnull.main::lang.settings_fields.cookies_use_vertical_commentAbove
+      span: auto
+      tab: Notification
+
+    use_text:
+      label: devnull.main::lang.settings_fields.cookies_use_text_label
+      type: text
+      commentAbove: devnull.main::lang.settings_fields.cookies_use_text_commentAbove
+      span: auto
+      tab: Text
+
+    use_text_more:
+      label: devnull.main::lang.settings_fields.cookies_use_text_more_label
+      type: textarea
+      commentAbove: devnull.main::lang.settings_fields.cookies_use_text_more_commentAbove
+      span: left
+      placeholder: placeholder information
+      tab: Text
+
+
+

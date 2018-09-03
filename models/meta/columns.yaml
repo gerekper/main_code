@@ -1,0 +1,31 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+  page:
+    label: devnull.main::lang.seo.column_page_label
+    type: text
+    searchable: true
+    sortable: true
+    hidden: false
+    invisible: false
+    width: auto
+
+  status:
+    label: devnull.main::lang.seo.column_status_label
+    type: text
+    searchable: true
+    sortable: true
+    hidden: false
+    invisible: false
+    width: auto
+
+  directives:
+    label: devnull.main::lang.seo.column_directives_label
+    type: text
+    searchable: true
+    sortable: true
+    hidden: false
+    invisible: false
+    width: auto

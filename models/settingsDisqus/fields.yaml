@@ -1,0 +1,19 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+  use_plugin_disqus:
+    label: devnull.main::lang.settings_fields.disqus_label
+    type: switch
+    commentAbove: devnull.main::lang.settings_fields.disqus_commentAbove
+    span: auto
+
+tabs:
+  fields:
+    disqus_count:
+      label: devnull.main::lang.settings_fields.disqus_count_label
+      type: text
+      commentAbove: devnull.main::lang.settings_fields.disqus_count_commentAbove
+      span: auto
+      tab: Disqus

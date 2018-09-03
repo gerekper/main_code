@@ -1,0 +1,48 @@
+# ===================================
+#  Form Field Definitions
+# ==================================
+
+fields:
+  type:
+    label: devnull.main::lang.directives.type_label
+    type: dropdown
+    span: auto
+    disabled: false
+    hidden: false
+    required: true
+
+  property:
+    label: devnull.main::lang.directives.property_label
+    type: dropdown
+    span: auto
+    disabled: false
+    hidden: false
+    required: true
+
+  content:
+    label: content
+    type: text
+    span: fill
+    disabled: false
+    hidden: false
+    required: true
+
+tabs:
+  fields:
+    created_at:
+      label: devnull.main::lang.directives.created_at
+      type: text
+      span: auto
+      required: false
+      disabled: true
+      hidden: false
+      tab: Chrono
+
+    updated_at:
+      label: devnull.main::lang.directives.updated_at
+      type: text
+      span: auto
+      required: false
+      disabled: true
+      hidden: false
+      tab: Chrono

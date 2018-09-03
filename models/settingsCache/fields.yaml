@@ -1,0 +1,69 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+  use_plugin_cache:
+    label: devnull.main::lang.settings_fields.use_plugin_cache_label
+    type: switch
+    commentAbove: devnull.main::lang.settings_fields.use_plugin_cache_commentAbove
+    span: auto
+
+tabs:
+  fields:
+
+    cache_chart_size:
+      label: devnull.main::lang.settings_fields.cache_chart_size_label
+      type: dropdown
+      commentAbove: devnull.main::lang.settings_fields.cache_chart_size_commentAbove
+      span: auto
+      tab: Dashboard
+
+    cache_force_new_row:
+      label: devnull.main::lang.settings_fields.cache_force_new_row_label
+      type: switch
+      commentAbove: devnull.main::lang.settings_fields.cache_force_new_row_commentAbove
+      span: auto
+      tab: Dashboard
+
+    cache_dashboard_width:
+      labe: devnull.main::lang.settings_fields.cache_dashboard_width_label
+      type: dropdown
+      commentAbove: devnull.main::lang.settings.cache_dashboard_width_commentAbove
+      span: auto
+      tab: Dashboard
+
+    cms_cache_path:
+      label: devnull.main::lang.settings_fields.cache_path_cache_label
+      type: text
+      commentAbove: devnull.main::lang.settings_fields.cache_path_cache_commentAbove
+      span: auto
+      tab: Cache
+
+    cms_combiner_path:
+      label: devnull.main::lang.settings_fields.cache_path_combiner_label
+      type: text
+      commentAbove: devnull.main::lang.settings_fields.cache_path_combiner_commentAbove
+      span: auto
+      tab: Cache
+
+    cms_twig_path:
+      label: devnull.main::lang.settings_fields.cache_path_twig_label
+      type: text
+      commentAbove: devnull.main::lang.settings_fields.cache_path_twig_commentAbove
+      span: auto
+      tab: Cache
+
+    framework_cache_path:
+      label: devnull.main::lang.settings_fields.cache_path_framework_label
+      type: text
+      commentAbove: devnull.main::lang.settings_fields.cache_path_framework_commentAbove
+      span: auto
+      tab: Cache
+
+    thumbnails_path:
+      label: devnull.main::lang.settings_fields.cache_path_thumbnails_label
+      type: text
+      commentAbove: devnull.main::lang.settings_fields.cache_path_thumbnails_commentAbove
+      span: auto
+      tab: Cache

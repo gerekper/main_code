@@ -1,0 +1,48 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+  use_plugin_robot:
+    label: devnull.main::lang.settings_fields.use_plugin_robot_label
+    type: switch
+    commentAbove: devnull.main::lang.settings_fields.use_plugin_robot_commentAbove
+    span: auto
+
+tabs:
+  fields:
+
+    redirectpage:
+      label: devnull.main::lang.settings_fields.redirectpage_label
+      type: dropdown
+      commentAbove: devnull.main::lang.settings_fields.redirectpage_commentAbove
+      span: auto
+      tab: Robots
+
+    use_robots:
+      label: devnull.main::lang.settings_fields.use_robots_label
+      type: switch
+      commentAbove: devnull.main::lang.settings_fields.use_robots_commentAbove
+      span: auto
+      tab: Robots
+
+    use_robottrap:
+      label: devnull.main::lang.settings_fields.use_robottrap_label
+      type: switch
+      commentAbove: devnull.main::lang.settings_fields.use_robottrap_commentAbove
+      span: auto
+      tab: Robots
+
+    use_forward_robot:
+      label: devnull.main::lang.settings_fields.use_forward_robot_label
+      type: switch
+      commentAbove: devnull.main::lang.settings_fields.use_forward_robot_commentAbove
+      span: auto
+      tab: Robots
+
+    use_invert_on_buttons:
+      label: devnull.main::lang.settings_fields.use_robot_invert_label
+      type: switch
+      commentAbove: devnull.main::lang.settings_fields.use_robot_invert_commentAbove
+      span: auto
+      tab: Robots

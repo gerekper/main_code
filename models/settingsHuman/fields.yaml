@@ -1,0 +1,19 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+  use_plugin_human:
+    label: devnull.main::lang.settings_fields.use_plugin_human_label
+    type: switch
+    commentAbove: devnull.main::lang.settings_fields.use_plugin_human_commentAbove
+
+tabs:
+  fields:
+
+    redirectpage:
+      label: devnull.main::lang.settings_fields.redirectpage_label
+      type: dropdown
+      commentAbove: devnull.main::lang.settings_fields.redirectpage_commentAbove
+      span: auto
+      tab: Humans

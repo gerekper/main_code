@@ -1,0 +1,48 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+tabs:
+  fields:
+
+    use_plugin_meta:
+      label: devnull.main::lang.settings_fields.meta_label
+      type: switch
+      commentAbove: devnull.main::lang.settings_fields.meta_commentAbove
+      span: auto
+      tab: SEO
+
+    use_meta_html:
+      label: devnull.main::lang.settings_fields.use_meta_html_label
+      type: switch
+      commentAbove: devnull.main::lang.settings_fields.use_meta_html_commentAbove
+      span: auto
+      tab: SEO
+
+    use_meta_twi:
+      label: devnull.main::lang.settings_fields.use_meta_twi_label
+      type: switch
+      commentAbove: devnull.main::lang.settings_fields.use_meta_twi_commentAbove
+      span: auto
+      tab: SEO
+
+    use_meta_fb:
+      label: devnull.main::lang.settings_fields.use_meta_fb_label
+      type: switch
+      commentAbove: devnull.main::lang.settings_fields.use_meta_fb_commentAbove
+      span: auto
+      tab: SEO
+
+    use_meta_app:
+      label: devnull.main::lang.settings_fields.use_meta_app_label
+      type: switch
+      commentAbove: devnull.main::lang.settings_fields.use_meta_app_commentAbove
+      span: auto
+      tab: SEO
+
+    use_meta_api:
+      label: devnull.main::lang.settings_fields.use_meta_api_label
+      type: switch
+      commentAbove: devnull.main::lang.settings_fields.use_meta_api_commentAbove
+      span: auto
+      tab: SEO
